@@ -1,3 +1,159 @@
 body {
-    
+    display: flex;
+    flex-direction: column;
+    margin: 0
 }
+
+.first, .second, .realfooter {
+    background-color: #1F2937;
+}
+
+header, .realfooter {
+    color: #f9faf8
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 350px;
+    font-size: 24px;
+    color: #f9faf8; 
+}
+
+header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.second {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 50px 100px 50px 100px;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    width: 350px
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 350px
+}
+
+#topbutton {
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.seaimage {
+    height: 197px;
+    width: 300px;
+}
+
+.third {
+    display: flex;
+    flex-direction: column;
+}
+
+#randominfo {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    padding: 50px
+}
+
+.divrandomimages {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: -50px;
+    margin-bottom: 75px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.text {
+    flex-wrap: wrap;
+    width: 153px
+}
+
+.randomimages {
+    border-radius: 10px;
+    border: 2px;
+    border-style: solid;
+    border-color: #3882f6;
+    height: 100px
+}
+
+#bottombutton {
+    width: 100px;
+}
+
+.fourth {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    min-height: 350px;
+    background-color: #E5E7EB;
+}
+
+.finalbox {
+    margin: auto;
+    max-width: 600px;
+    align-items: center;
+    text-align: left;
+}
+
+.quotewrap {
+   margin-bottom: 10px;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 25px;
+}
+
+.quotefooter {
+    font-size: 22px;
+    font-family: light italic;
+    text-align: right;
+}
+
+.fifth {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 30px 100px;
+    margin: auto;
+    max-width: 600px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    gap: 100px
+}
+
+#calltoaction {
+    font-weight: bold
+}
+
+#bottombutton {
+    color: white;
+    background-color: #3882f6;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 5px;
+}
+
+.realfooter {
+    text-align: center;
+    padding: 15px
+}
+
